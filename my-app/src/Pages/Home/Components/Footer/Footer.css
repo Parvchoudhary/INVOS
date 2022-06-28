@@ -1,0 +1,23 @@
+.footer
+{
+    padding: 10vh;
+    background-color: rgb(24, 26, 77);
+    display: flex;
+    flex-direction: column;
+}
+
+.foot_h
+{
+    display: flex;
+    flex-direction: row;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-left: 5%;
+    font-family:'Stardos Stencil',normal;
+}
+.foot_desc
+{
+    margin-top: 01%;
+    margin-left: 45%;
+    font-size: 1.5rem;
+}

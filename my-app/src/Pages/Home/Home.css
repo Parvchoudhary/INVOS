@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+/* ----------------------------------- Navbar Start ---------------------------------*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.cp{
+  background: linear-gradient(60deg, #4978D299 27% , #fff 27%);
+}
+.nav_bar{
+  width: 100%;
+  height: 5vw;
+  background-color:#fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav_menu
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.nav_p{
+  margin-left:1.7rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color:rgba(32, 29, 29, 0.75);
+  font-weight: 700;
+  text-decoration: none;
+}
+.nav_b{
+  
+  margin-left:2.5rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  width: 6vw;
+  height: 2.2vw;
+  background-color: #3283e0;
+  color:#fff;
+  cursor: pointer;
+  border:none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nav_h{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  padding-left: 5vw;
+  width: 30vw;
+  font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  color: rgba(80, 86, 231, 1);
+  font-family:'Stardos Stencil',normal;
+}
+.nav_h img{
+  height: 3.1rem;
+  transform: translateY(-0.1rem);
+  margin-right:2vw;
+}
+
+/* ----------------------------------- Navbar End ---------------------------------*/
+
+
+/* ----------------------------------- Landing Page Start ---------------------------------*/
+/* ----------------------------------- Content Page 1 Start ---------------------------------*/
+
+
+.content_page1{
+  width: 100%;
+  height: calc(100vh - 5vw);
+  
+  margin: 0;
+  padding: 0;
+}
+.landing_c{
+  height: 20rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.landing_h{
+  display: flex;
+  width:50%;
+  font-size: 2.5rem;
+  font-weight:600;
+  justify-content: center;
+  line-height: 4.5rem;
+  letter-spacing: 0.15rem;
+  word-spacing: 0.2rem;
+  align-items: center;
+}
+.landing_img{
+  display: flex;
+  width:50%;
+  padding-top:4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing_img img{
+  width:25vw;
+}
+.landing_bts{
+  padding-left: 10vw;
+  padding-top: 3rem;
+}
+.landing_b{
+  width: 18vw;
+  height: 4.5rem;
+  border-radius: 4.5rem;
+  margin-left: 3vw;
+  background: #4978D2;
+  color: #ffffff;
+  font-weight:600;
+  border:none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 2rem;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+}
+
+.landing_b:first-child{
+  background: #ffffff;
+  color: #4978D2;
+}
+.mng{
+  color: #fff;
+  text-decoration: none;
+}
+/* ----------------------------------- Content Page 1 End ---------------------------------*/
+
+/* ----------------------------------- Content Page 2 Start ---------------------------------*/
+
+
+.content_page2{
+  width:100%;
+  height:100vh;
+ 
+}
+.cp2_h{
+  padding-top: 3rem;
+  display: flex;
+  font-size: 1.5rem;
+  justify-content:center;
+  font-weight: 150;
+  color:rgba(111, 103, 103, 1);
+  align-items: center;
+  flex-direction: column;
+  font-family:'Roboto',sans-serif;
+  letter-spacing: 0.2rem;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top:3rem;
+}
+.cp2_card{
+  height: 18rem;
+  width: 18rem;
+  background: #F7FBFF;
+  box-shadow: 10px 8px 10px rgba(0, 0, 0, 0.25);
+  margin: 2.5rem;
+  border-radius: 20px;
+  padding: 2rem;
+  position: relative;
+}
+.cp2_card p{
+  font-size:2rem;
+  letter-spacing: 0.15rem;
+  text-align: center;
+  color:rgba(131, 131, 131, 1);
+  font-family:'Roboto',sans-serif;
+  font-weight: 800;
+}
+.cp2_img{
+  position: absolute;
+  bottom: 15%;
+  left:18%;
+}
+.arrow{
+  position: absolute;
+  bottom: 10%;
+  left:70%;
+  cursor: pointer;
+
+}
+
+/* ----------------------------------- Content Page 2 End ---------------------------------*/
+/* ----------------------------------- Landing Page End ---------------------------------*/
+
+@media screen and (max-width: 700px)  {
+  
+  
+}

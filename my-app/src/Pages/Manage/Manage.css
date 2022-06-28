@@ -1,0 +1,41 @@
+body{
+    background-color: #fff;;
+}
+h1{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3rem;
+    color: #4978D2;
+}
+.cyrp_form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+
+    padding-left: 3rem;
+}
+input{
+    margin-bottom: 2rem;
+    height: 1.5rem;
+}
+label{
+    margin-bottom:0.3rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #444444;
+}
+#cryp_sub{
+    width: 25%;
+    margin-left: 35%;
+    background: #4978D2;
+    color: #ffffff;
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+}
